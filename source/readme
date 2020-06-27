@@ -1,0 +1,14 @@
+
+Hey!
+
+You can find all the code here.
+For a quick glance of Spin works:
+
+cd examples-for-explaining-approach
+./run.bash
+
+This will trigger a verification with an intended error and will ask Spin to emit the counterexample that violated the specification.
+
+You can then explore the other directories, where you have the different phases of the approach.
+
+Good luck :D

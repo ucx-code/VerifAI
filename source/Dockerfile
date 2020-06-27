@@ -12,6 +12,4 @@ RUN pip3 install pandas
 
 COPY . /opt/source-code
 
-ENTRYPOINT bash
-
-CMD cd /opt/source-code
+ENTRYPOINT cd /opt/source-code ; cat readme ; bash
