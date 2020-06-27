@@ -11,5 +11,7 @@ RUN pip3 install sklearn
 RUN pip3 install pandas
 
 COPY ./source /opt/source-code
+RUN chmod u+x /opt/source-code/examples-for-explaining-approach/run.bash
+RUN rm Dockerfile
 
 ENTRYPOINT cd /opt/source-code ; cat readme ; bash
