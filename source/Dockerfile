@@ -10,6 +10,6 @@ RUN pip3 install numpy
 RUN pip3 install sklearn
 RUN pip3 install pandas
 
-COPY . /opt/source-code
+COPY ./source /opt/source-code
 
 ENTRYPOINT cd /opt/source-code ; cat readme ; bash
