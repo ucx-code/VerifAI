@@ -4,7 +4,7 @@ Intelligent software systems are increasingly being used in critical domains lik
 Artificial Intelligence in general, and Machine Learning in particular, pose new challenges to Verification, a crucial step of the critical systems development process.
 Formal Methods, such as Model Checking, are well known techniques that allow for proving properties in critical systems.
 
-Current work assesses the usage of Model Checking to perform verification in an emergency hospital patients risk assessment use case.
+Current work assesses the usage of Model Checking to perform verification in an emergency hospital patients risk assessment use case, [integrating with the LORE explainer](https://kdd.isti.cnr.it/cre_vue/\#/).
 
 The proposed approach is a framework that contemplates verification steps during both design and run time. 
 In specific, at design-time, it is able to check a model for invalid end states, non-determinism and accordance with \textit{a priori} knowledge.
